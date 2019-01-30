@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+button { border:none; 
+          border-radius: 0;} 
+
+.remove {
+    background-color: #E06566;
+    color: white;
+    line-height: 20px;
+}
+
+.new-skill {
+    line-height: 50px;
+    color: #F4AA38;
+    font-family: 'Roboto', sans-serif;
+}
+
+#add-button, input {
+    border: 3px solid #93C47D;
+    font-size: 14px;
+    height: 40px;
+    color: #93C47D;
+}
+
+input {
+    width: 204px;
+}
+
+header {
+    line-height: 50px;
+    background-color: #93C47D;
+    text-align: center;
+    color: white;
+    font-style: Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+#skill-box {
+    width: 300px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
